@@ -1,0 +1,30 @@
+.nav{
+
+    padding-top: 3vh;
+
+    div{
+        width: 100%;  
+        text-align: center;
+        padding: 0.5rem 0;
+        
+        a{
+            text-decoration: none;
+            color: #4e4c4c;
+
+            font-family: 'Amatic SC';
+            font-size: 1.5rem;
+
+            display: inline-block;
+            padding: 0 1.5%;
+
+            transition: all 0.3s ease 0s;
+        }
+
+        a:hover{
+            transform: translateY(-2px);
+            color: red;
+        }
+
+
+    }
+}
