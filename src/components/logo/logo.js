@@ -11,7 +11,7 @@ const Logo = () =>{
         query {
             file (relativePath: { eq: "components/logo/logo.png"}) {
                 childImageSharp {
-                    fluid(maxWidth: 550) {
+                    fluid(maxWidth: 500) {
                         ...GatsbyImageSharpFluid
                     }
             }
