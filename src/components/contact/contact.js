@@ -6,9 +6,9 @@ const Contact = () =>{
         <div className={contactStyle.contactDiv} id='c'>
             <div className={contactStyle.font}>Welcome</div>
             <div>We are located across the Golden Beach Camp</div>
-            <div className={contactStyle.padding}>
+            {/* <div className={contactStyle.padding}>
                 <a href="https://goo.gl/maps/jjmFeDqTdaT9kctv7" target="blank">Find us on a map</a>
-            </div>
+            </div> */}
             <div>
                 <p>Working Hours:</p> 
                 <p className={contactStyle.color}>from 12:00 to 00:00</p>
