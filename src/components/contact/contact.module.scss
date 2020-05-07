@@ -4,10 +4,11 @@
     cursor: default;
 
     div {
-        font-size: 1rem;
+        font-size: 1.7rem;
+        font-weight: bold;
         color: #333333;
         padding: 0.2rem 1rem;
-        font-family: 'Karla';
+        font-family: 'Amatic SC';
         a{
             text-decoration: none;
             color: slategray;
@@ -29,6 +30,11 @@
     .color{
         color: slategray;
         font-size: 1.3rem;
+    }
+
+    .small {
+        font-size: 0.5rem;
+        color: gray;
     }
 }
 

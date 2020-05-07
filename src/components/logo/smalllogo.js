@@ -1,13 +1,9 @@
-
-import React from "react"
+import React from 'react'
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
-import logoStyles from "./logo.module.scss"
+import logoStyles from './logo.module.scss'
 
-
-
-const Logo = () =>{
-
+const SmallLogo = () =>{
     const data = useStaticQuery(graphql`
         query {
             file (relativePath: { eq: "components/logo/logo.png"}) {
@@ -21,11 +17,10 @@ const Logo = () =>{
     `)
 
     return (
-        <div className={logoStyles.logo}>
+        <div className={logoStyles.small}>
             <Img fluid={data.file.childImageSharp.fluid}/>
         </div>
     )
 }
 
-export default Logo
-
+export default SmallLogo

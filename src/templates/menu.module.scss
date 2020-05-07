@@ -9,14 +9,16 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     border-bottom: #666666 dotted 1px;
-    font-family: 'Karla';
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    font-size: 1.5rem;
     transition: all 0.1s ease 0s;
 }
 
 .item:hover{
     transform: scale(1.005, 1);
     .price{
-        color: red;
+        color: rgb(245, 82, 82);
     }
 }
 
@@ -26,8 +28,9 @@
 }
 
 .description{
-    font-size: 0.8rem;
-    color: #666666;
+    font-size: 1rem;
+    color: rgb(241, 63, 63);
+    letter-spacing: 1px;
 }
 
 .price{

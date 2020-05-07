@@ -28,7 +28,7 @@ const Food = () =>{
                             if(edge.node.type === 'Food'){
                                 return (
                                    
-                                        <Link to={`/menu/${edge.node.slug}`} activeStyle={{ color: "red" }}>
+                                        <Link key={edge.node.slug} to={`/menu/${edge.node.slug}`} activeStyle={{ color: "red" }}>
                                             <p className={navbarStyle.navItem}>{edge.node.title}</p>
                                         </Link>
                                 )

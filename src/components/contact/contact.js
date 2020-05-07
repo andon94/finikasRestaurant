@@ -21,7 +21,8 @@ const Contact = () =>{
                 <p>E-mail:</p> 
                 <p className={contactStyle.color}>finikas01@gmail.com</p>
             </div>
-            <div>Call us to make a reservation!</div>
+            <div>Call us to make a reservation or order takeaway!</div>
+            {/* <p className={contactStyle.small}>prices for takeaway may differ from the prices inside the restaurant</p> */}
 
         </div>
     )

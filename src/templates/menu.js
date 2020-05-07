@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Navbar from '../components/navbar/navbar'
 import BonApetit from '../components/bonapetit/bonapetit'
 
+import SmallLogo from '../components/logo/smalllogo'
 
 import itemStyles from  './menu.module.scss'
 
@@ -44,6 +45,7 @@ const Menu = (props) =>{
 
     return (
         <Layout>
+            <SmallLogo />
             <Navbar />
             <div className={itemStyles.container}>
                 <p>{getItems(props.data)}</p>
