@@ -1,7 +1,7 @@
 .container{
     text-align: center;
     width: 70%;
-    margin: 5rem auto;
+    margin: 5rem auto 0 auto;
     cursor: default;
 }
 
@@ -37,4 +37,13 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.caption{
+    font-size: 0.6rem;
+    text-align: center;
+    font-family: 'Amatic SC';
+    color: black;
+    font-weight: bold;
+    padding: 5rem 0 3rem 0;
 }

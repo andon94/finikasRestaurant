@@ -50,6 +50,7 @@ const Menu = (props) =>{
             <div className={itemStyles.container}>
                 <p>{getItems(props.data)}</p>
             </div>
+            <div className={itemStyles.caption}>Some of the content may be outdated. Contact us for detailed information.</div>
             <BonApetit>Bon Apetit!</BonApetit>
         </Layout>
     )

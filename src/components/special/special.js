@@ -41,6 +41,8 @@ const Special = () =>{
                 <div className={specialStyles.price}>
                     <p>{item.Price} &euro;</p>
                 </div>
+                <div className={specialStyles.update}>-The Daily Specials are updated at around noon every day and are not available for takeaway-</div>
+
             </div>)
         })
         return itemsArray;
