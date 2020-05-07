@@ -38,9 +38,9 @@ const Special = () =>{
                 <div>{item.Soup}</div>
                 <div>{item.Desert}</div>
                 <div>{item.Drink}</div>
-
-                 
-                <div>{item.Price} &euro;</div>
+                <div className={specialStyles.price}>
+                    <p>{item.Price} &euro;</p>
+                </div>
             </div>)
         })
         return itemsArray;

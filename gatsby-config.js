@@ -7,6 +7,14 @@ module.exports = {
 
   },
   plugins: [
+    
+    {
+      resolve: `gatsby-source-googlemaps-static`,
+      options: {
+          key: process.env.GOOGLE_MAPS_STATIC_API_KEY,
+          center: `Chicago, IL`,
+      },
+    },
     {
       resolve: 'gatsby-source-contentful',
       options: {
