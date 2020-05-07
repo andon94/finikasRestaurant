@@ -25,11 +25,15 @@
 
     .padding{
         padding-bottom: 3rem;
+        a:hover{
+            color: red;
+        }
     }
 
     .color{
         color: slategray;
         font-size: 1.3rem;
+        letter-spacing: 2px;
     }
 
     .small {
