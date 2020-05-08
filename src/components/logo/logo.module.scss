@@ -16,3 +16,22 @@
     left: 0;
     right: 0;
 }
+
+@media(max-width:550px) {
+    .logo{
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .small{
+        padding-top: 0;
+        z-index: -1;
+        width: 50%;
+        opacity: 0.1;
+        position: fixed;
+        text-align: center;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+}

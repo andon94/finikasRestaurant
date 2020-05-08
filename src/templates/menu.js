@@ -44,13 +44,13 @@ const Menu = props => {
       <SmallLogo />
       <Navbar />
       <div className={itemStyles.container}>
-        <p>{getItems(props.data)}</p>
+        <div>{getItems(props.data)}</div>
       </div>
       <div className={itemStyles.caption}>
         Some of the content may be outdated. Contact us for detailed
         information.
       </div>
-      <BonApetit>Bon Apetit!</BonApetit>
+      <BonApetit />
     </Layout>
   )
 }

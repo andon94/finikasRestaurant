@@ -28,3 +28,9 @@
     color: white;
     transform: translateY(-7px);
 }
+
+@media(max-width:550px) {
+    .button{
+        display: none;
+    }
+}

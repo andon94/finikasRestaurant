@@ -8,15 +8,14 @@ import Special from '../components/special/special'
 import SmallLogo from '../components/logo/smalllogo'
 
 
-
-const Menu = () =>{
+const Menu = () => {
     return (
         <Layout>
-            <Head title='Menu'/>
+            <Head title='Menu' />
             <SmallLogo />
             <Navbar />
-            <Special />    
-            <Enjoy /> 
+            <Special />
+            <Enjoy />
         </Layout>
     )
 }

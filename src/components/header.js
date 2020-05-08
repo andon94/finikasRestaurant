@@ -6,7 +6,7 @@ import headerStyles from './styles/header.module.scss'
 
 
 
-const Header = () =>{
+const Header = () => {
 
 
     return (
@@ -14,27 +14,21 @@ const Header = () =>{
             {/* <h1 className={headerStyles.title}>{data.site.siteMetadata.title}</h1> */}
             <nav>
                 <ul className={headerStyles.ulist}>
-                    <li>
-                        <Link 
-                        to="./"
+                    <li className={headerStyles.h}>
+                        <Link
+                            to="./"
                         >
                             Home
                         </Link>
                     </li>
-                    <li>
-                        <Link 
-                        to="./menu/"
+                    <li className={headerStyles.m}>
+                        <Link
+                            to="./menu/"
                         >
                             Menu
                         </Link>
                     </li>
-                    {/* <li>
-                        <Link 
-                        to="#c"
-                        >
-                            Contact
-                        </Link>
-                    </li> */}
+
                 </ul>
             </nav>
         </header>
