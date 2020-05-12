@@ -13,10 +13,11 @@ import Head from '../components/head'
 
 
 
-const IndexPage = () =>{
+
+const IndexPage = () => {
     return (
         <Layout>
-            <Head title='Home'/>
+            <Head title='Home' />
             <Logo />
             <Button />
             <Contact />

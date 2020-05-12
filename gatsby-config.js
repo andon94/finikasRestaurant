@@ -3,16 +3,17 @@ require("dotenv").config()
 module.exports = {
   siteMetadata: {
     title: 'Finikas Restaurant',
-    author: 'andon'
+    author: 'andon',
+    description: 'Visit Finikas Restaurant while in Golden Beach, Thassos. Try some of the best mediterranean cuisine.'
 
   },
   plugins: [
-    
+
     {
       resolve: 'gatsby-source-contentful',
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN, 
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
     'gatsby-plugin-react-helmet',
@@ -52,7 +53,7 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    { 
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

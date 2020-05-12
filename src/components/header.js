@@ -6,6 +6,7 @@ import headerStyles from './styles/header.module.scss'
 
 
 
+
 const Header = () => {
 
 
@@ -23,12 +24,11 @@ const Header = () => {
                     </li>
                     <li className={headerStyles.m}>
                         <Link
-                            to="./menu/"
+                            to="./menu"
                         >
                             Menu
                         </Link>
                     </li>
-
                 </ul>
             </nav>
         </header>
