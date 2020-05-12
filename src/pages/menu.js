@@ -11,7 +11,7 @@ import SmallLogo from '../components/logo/smalllogo'
 const Menu = () => {
     return (
         <Layout>
-            <Head title='Menu' />
+            <Head title='Menu | Finikas Restaurant' />
             <SmallLogo />
             <Navbar />
             <Special />

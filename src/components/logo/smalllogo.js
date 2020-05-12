@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import logoStyles from './logo.module.scss'
 
-const SmallLogo = () =>{
+const SmallLogo = () => {
     const data = useStaticQuery(graphql`
         query {
             file (relativePath: { eq: "components/logo/logo.png"}) {
@@ -18,7 +18,7 @@ const SmallLogo = () =>{
 
     return (
         <div className={logoStyles.small}>
-            <Img fluid={data.file.childImageSharp.fluid}/>
+            <Img fluid={data.file.childImageSharp.fluid} alt='finikas taverna golden beach thassos' />
         </div>
     )
 }

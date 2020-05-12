@@ -5,6 +5,8 @@ import Navbar from "../components/navbar/navbar"
 import BonApetit from "../components/bonapetit/bonapetit"
 
 import SmallLogo from "../components/logo/smalllogo"
+import Head from '../components/head'
+
 
 import itemStyles from "./menu.module.scss"
 
@@ -41,6 +43,7 @@ const Menu = props => {
 
   return (
     <Layout>
+      <Head />
       <SmallLogo />
       <Navbar />
       <div className={itemStyles.container}>

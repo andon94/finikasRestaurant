@@ -4,8 +4,9 @@ module.exports = {
   siteMetadata: {
     title: 'Finikas Restaurant',
     author: 'andon',
-    description: 'Visit Finikas Restaurant while in Golden Beach, Thassos. Try some of the best mediterranean cuisine.'
-
+    description: 'Visit Finikas Restaurant while in Golden Beach, Thassos. Try some of the best Greek food!.',
+    url: "https://www.finikastaverna.com",
+    image: "/static/favicon.ico"
   },
   plugins: [
 

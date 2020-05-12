@@ -6,7 +6,7 @@ import logoStyles from "./logo.module.scss"
 
 
 
-const Logo = () =>{
+const Logo = () => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -22,7 +22,7 @@ const Logo = () =>{
 
     return (
         <div className={logoStyles.logo}>
-            <Img fluid={data.file.childImageSharp.fluid}/>
+            <Img fluid={data.file.childImageSharp.fluid} alt='finikas taverna best food on thassos' />
         </div>
     )
 }
