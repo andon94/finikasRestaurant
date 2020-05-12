@@ -26,8 +26,8 @@ const Contact = () => {
                 <p className={contactStyle.color}>finikas01@gmail.com</p>
             </div>
             <div>
-                <a className={contactStyle.soc} href="https://www.tripadvisor.rs/Restaurant_Review-g775840-d2177225-Reviews-Finikas-Golden_Beach_Thasos_Northeast_Aegean_Islands.html" target='blank'><FaTripadvisor /></a>
-                <a className={contactStyle.soc} href="https://www.facebook.com/Taverna-finikas-thassos-1400909270191114/" target='blank'><FaFacebookF /></a>
+                <a className={contactStyle.soc} href="https://www.tripadvisor.rs/Restaurant_Review-g775840-d2177225-Reviews-Finikas-Golden_Beach_Thasos_Northeast_Aegean_Islands.html" target='blank'><FaTripadvisor size={42} /></a>
+                <a className={contactStyle.soc} href="https://www.facebook.com/Taverna-finikas-thassos-1400909270191114/" target='blank'><FaFacebookF size={42} /></a>
 
             </div>
             <div>Call us to make a reservation or order takeaway!</div>
