@@ -5,14 +5,12 @@ import Navbar from '../components/navbar/navbar'
 import Enjoy from '../components/enjoy/enojoy'
 import Head from '../components/head'
 import Special from '../components/special/special'
-import SmallLogo from '../components/logo/smalllogo'
 
 
 const Menu = () => {
     return (
         <Layout>
             <Head title='Menu | Finikas Restaurant' />
-            <SmallLogo />
             <Navbar />
             <Special />
             <Enjoy />
