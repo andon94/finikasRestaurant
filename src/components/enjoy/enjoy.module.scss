@@ -1,24 +1,23 @@
-.enjoy{
-    padding-top: 10vh;
-    color: rgb(245, 82, 82);
-    font-size: 2rem;
-    font-family: 'Satisfy';
-    text-align: center;
-    cursor: default;
+.enjoy {
+  padding-top: 10vh;
+  color: rgb(245, 82, 82);
+  font-size: 2rem;
+  font-family: "Satisfy";
+  text-align: center;
+  cursor: default;
 }
 
-.padding{
-    padding-top: 15vh;
-    color: rgb(245, 82, 82);
-    font-size: 2.5rem;
-    font-family: 'Satisfy';
-    text-align: center;
-    cursor: default;
-
+.padding {
+  padding-top: 15vh;
+  color: rgb(245, 82, 82);
+  font-size: 2.5rem;
+  font-family: "Satisfy";
+  text-align: center;
+  cursor: default;
 }
 
-@media(max-width:550px) {
-    .enjoy{
-        padding: 0 0 0.5rem 0;
-    }
+@media (max-width: 550px) {
+  .enjoy {
+    padding: 0 0 0.5rem 0;
+  }
 }

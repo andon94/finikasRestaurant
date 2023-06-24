@@ -1,45 +1,42 @@
-.nav{
+.nav {
+  padding-top: 3vh;
 
-    padding-top: 3vh;
+  div {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
 
-    div{
-        width: 100%;  
-        text-align: center;
-        padding: 0.5rem 0;
-        
-        a{
-            text-decoration: none;
-            color: #4e4c4c;
+    a {
+      text-decoration: none;
+      color: #4e4c4c;
 
-            font-family: 'Amatic SC';
-            font-size: 1.5rem;
-            font-weight: bold;
+      font-family: "Amatic SC";
+      font-size: 1.5rem;
+      font-weight: bold;
 
-            display: inline-block;
-            padding: 0 1.5%;
+      display: inline-block;
+      padding: 0 1.5%;
 
-            transition: all 0.3s ease 0s;
-        }
-
-        a:hover{
-            transform: translateY(-2px);
-            color: red;
-        }
-
-
+      transition: all 0.3s ease 0s;
     }
+
+    a:hover {
+      transform: translateY(-2px);
+      color: red;
+    }
+  }
 }
 
-@media(max-width:550px) {
-    .nav{
-        padding: 0;
-        div {
-            a{
-                display: inline-block;
-                padding: 0.5% 3%;
-                font-size: 1.3rem;
-                color: #333333;
-            }
-        }
+@media (max-width: 550px) {
+  .nav {
+    padding: 0;
+    div {
+      a {
+        display: inline-block;
+        padding: 0.5% 3%;
+        font-size: 1.3rem;
+        color: #333333;
+      }
     }
+  }
 }

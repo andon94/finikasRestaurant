@@ -1,15 +1,12 @@
-import React from 'react'
+import React from "react"
+import * as styles from "./enjoy.module.scss"
 
-import enjoy from './enjoy.module.scss'
-
-const Enjoy = () =>{
-    return (
-        <div className={enjoy.container}>
-            {/* <p className={enjoy.padding}>Finikas Restaurant</p> */}
-
-            <p className={enjoy.enjoy}>Enjoy!</p>
-        </div>
-    )
+const Enjoy = () => {
+  return (
+    <div>
+      <p className={styles.enjoy}>Enjoy!</p>
+    </div>
+  )
 }
 
 export default Enjoy

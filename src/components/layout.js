@@ -1,29 +1,19 @@
-import React from 'react'
+import React from "react"
+import Header from "./header"
+import Footer from "./footer"
+import * as styles from "./styles/layout.module.scss"
 
-import Header from './header'
-import Footer from './footer'
+const Layout = props => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.content}>
+        <Header />
 
-import layoutStyles from './styles/layout.module.scss'
-// import MobileHeader from './mobileheader'
-
-const Layout = (props) => {
-
-
-
-
-    return (
-        <div className={layoutStyles.container}>
-            <div className={layoutStyles.content}>
-                {/* <MobileHeader /> */}
-                <Header />
-
-                <div>
-                    {props.children}
-                </div>
-            </div>
-            <Footer />
-        </div>
-    )
+        <div>{props.children}</div>
+      </div>
+      <Footer />
+    </div>
+  )
 }
 
 export default Layout

@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react"
+import * as styles from "./bonapetit.module.scss"
 
-import bonapetit from './bonapetit.module.scss'
-
-const BonApetit = () =>{
-    return (
-        <div className={bonapetit.container}>
-            <p className={bonapetit.bonapetit}>Bon Appétit!</p>
-        </div>
-    )
+const BonApetit = () => {
+  return (
+    <div>
+      <p className={styles.bonapetit}>Bon Appétit!</p>
+    </div>
+  )
 }
 
 export default BonApetit

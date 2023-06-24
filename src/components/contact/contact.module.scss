@@ -1,85 +1,79 @@
-.contact-div{
-    margin-top: 10vh;
-    text-align: center;
-    cursor: default;
+.contact-div {
+  margin-top: 10vh;
+  text-align: center;
+  cursor: default;
 
-    h1{
-        font-size: 2.3rem;
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  div {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #333333;
+    padding: 0.2rem 1rem;
+    font-family: "Amatic SC";
+    a {
+      text-decoration: none;
+      color: slategray;
+      font-size: 1.3rem;
     }
+  }
 
-    h2{
-        font-size: 1.7rem;
+  .font {
+    font-family: "Satisfy";
+    font-size: 2.3rem;
+    padding-bottom: 1.3rem;
+  }
+
+  .padding {
+    padding-bottom: 3rem;
+    a:hover {
+      color: red;
     }
+  }
 
-    div {
-        font-size: 1.7rem;
-        font-weight: bold;
-        color: #333333;
-        padding: 0.2rem 1rem;
-        font-family: 'Amatic SC';
-        a{
-            text-decoration: none;
-            color: slategray;
-            font-size: 1.3rem;
-        }
-    }
+  .color {
+    color: slategray;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+  }
 
-    .font{
-        font-family: 'Satisfy';
-        font-size: 2.3rem;
-        padding-bottom: 1.3rem;
+  .small {
+    font-size: 0.5rem;
+    color: gray;
+  }
 
-    }
+  .soc {
+    // line-height: 5rem;
+    margin: 1.5rem 0 2rem 0;
+    color: #666666;
+    padding: 0 1rem;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+  }
 
-    .padding{
-        padding-bottom: 3rem;
-        a:hover{
-            color: red;
-        }
-    }
-
-    .color{
-        color: slategray;
-        font-size: 1.3rem;
-        letter-spacing: 2px;
-    }
-
-    .small {
-        font-size: 0.5rem;
-        color: gray;
-    }
-
-    .soc{
-        // line-height: 5rem;
-        margin: 1.5rem 0 2rem 0;
-        color: #666666;
-        padding: 0 1rem;
-        display: inline-block;
-        transition: all 0.3s ease 0s;
-
-    }
-    
-    .soc:hover{
-        color: #333333;
-        transform: scale(1.5, 1.5);
-        
-    }
-
+  .soc:hover {
+    color: #333333;
+    transform: scale(1.5, 1.5);
+  }
 }
 
-
-
-@media(max-width:550px) {
-    .contact-div{
-        div {
-            font-size: 1.4rem;
-        }
-        .font{
-            display: none;
-        }
-        margin: 0;
-        .padding{
-            padding: 1rem;
-        }
+@media (max-width: 550px) {
+  .contact-div {
+    div {
+      font-size: 1.4rem;
     }
+    .font {
+      display: none;
+    }
+    margin: 0;
+    .padding {
+      padding: 1rem;
+    }
+  }
 }

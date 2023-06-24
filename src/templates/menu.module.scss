@@ -1,60 +1,60 @@
-.container{
-    text-align: center;
-    width: 70%;
-    margin: 5rem auto 0 auto;
-    cursor: default;
+.container {
+  text-align: center;
+  width: 70%;
+  margin: 5rem auto 0 auto;
+  cursor: default;
 }
 
-.item{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    border-bottom: #666666 dotted 1px;
-    font-family: 'Amatic SC';
-    font-weight: bold;
-    font-size: 1.5rem;
-    transition: all 0.1s ease 0s;
+.item {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  border-bottom: #666666 dotted 1px;
+  font-family: "Amatic SC";
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: all 0.1s ease 0s;
 }
 
-.item:hover{
-    transform: scale(1.005, 1);
-    .price{
-        color: rgb(245, 82, 82);
-    }
+.item:hover {
+  transform: scale(1.005, 1);
+  .price {
+    color: rgb(245, 82, 82);
+  }
 }
 
-.food{
-    text-align: left;
-    padding: 0.5rem 0;
+.food {
+  text-align: left;
+  padding: 0.5rem 0;
 }
 
-.description{
-    font-size: 1rem;
-    color: rgb(241, 63, 63);
-    letter-spacing: 1px;
+.description {
+  font-size: 1rem;
+  color: rgb(241, 63, 63);
+  letter-spacing: 1px;
 }
 
-.price{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.caption{
-    font-size: 0.6rem;
-    text-align: center;
-    font-family: 'Amatic SC';
-    color: black;
-    font-weight: bold;
-    padding: 5rem 0 3rem 0;
+.caption {
+  font-size: 0.6rem;
+  text-align: center;
+  font-family: "Amatic SC";
+  color: black;
+  font-weight: bold;
+  padding: 5rem 0 3rem 0;
 }
 
-@media(max-width:550px) {
-    .container{
-        width: 90%;
-        margin: 1rem auto;
-    }
+@media (max-width: 550px) {
+  .container {
+    width: 90%;
+    margin: 1rem auto;
+  }
 
-    .caption{
-        padding: 1rem;
-    }
+  .caption {
+    padding: 1rem;
+  }
 }
