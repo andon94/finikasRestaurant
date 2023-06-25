@@ -1,22 +1,19 @@
-.footer{
-    background-color: whitesmoke;
-    color: #333333;
-    text-align: center;
+.footer {
+  background-color: whitesmoke;
+  color: #333333;
+  text-align: center;
 
-    width: 100%;
-    font-size: 0.8rem;
-    font-family: 'Karla';
+  width: 100%;
+  font-size: 0.8rem;
+  font-family: "Karla";
 
-    margin-top: 3rem;
-    padding: 1rem 0;
-    cursor: default;
-
+  margin-top: 3rem;
+  padding: 1rem 0;
+  cursor: default;
 }
 
-@media(max-width:550px) {
-    .footer{
-        margin: 0;
-    }
+@media (max-width: 550px) {
+  .footer {
+    margin: 0;
+  }
 }
-
-
